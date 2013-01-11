@@ -60,7 +60,8 @@ function execute(){
             break;
         case 'mail':
             setConsoleVal(full_command, 'Helping you mail me. :D');
-            window.location('mailto:iambibhas@gmail.com');
+            location.href="mailto:me@bibhas.in&body=Hello!"; 
+            window.setTimeout(function () { location.href="newPage.html" }, 0); 
             break;
         case 'whoami':
             setConsoleVal(full_command, 'I don\'t know yet.');
